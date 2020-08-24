@@ -22,7 +22,6 @@ def show_board():
         print(*sublist)
     print()
 
-
 def find_winner(g_array):
     # Checking rows
     for sublist in g_array:             
@@ -45,7 +44,6 @@ def find_winner(g_array):
         g_array[0][0]=='@' and g_array[1][1]=='@' and g_array[2][2]=='@'
         or g_array[0][2]=='@' and g_array[1][1]=='@' and g_array[2][0]=='@'):
             return win2
-
 
 def p1_turn():
     while True:
